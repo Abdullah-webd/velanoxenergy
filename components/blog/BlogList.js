@@ -69,10 +69,6 @@ export default function BlogList() {
             </p>
             <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
               <div className="flex items-center space-x-2">
-                <User className="h-4 w-4" />
-                <span>Admin</span>
-              </div>
-              <div className="flex items-center space-x-2">
                 <Calendar className="h-4 w-4" />
                 <span>{new Date(post.createdAt).toLocaleDateString()}</span>
               </div>
