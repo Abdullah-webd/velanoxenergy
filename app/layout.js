@@ -6,25 +6,25 @@ import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title:
-    "Engr. Ibrahim O. Musa - CEO of Velanox Energy | Visionary Oil & Gas Leader",
+export const metadata = { 
+  title: "Engr. Ibrahim O. Musa - CEO of Velanox Energy | U.S. Oil & Gas Visionary",
   description:
-    "Explore the inspiring journey of Engr. Ibrahim O. Musa, the CEO of Velanox Energy. Discover his mission to lead sustainable energy development across Africa and the USA, driving innovation in oil and gas infrastructure.",
+    "Discover the professional journey of Engr. Ibrahim O. Musa, CEO of Velanox Energy. Learn how his leadership is driving innovation, sustainability, and excellence in the American oil and gas industry.",
   keywords: [
     "Engr. Ibrahim O. Musa",
     "Velanox Energy CEO",
-    "Oil and Gas Executive",
-    "Velanox Energy",
-    "Petroleum Industry",
-    "Oil and Gas Visionary",
-    "Energy Leadership United States",
+    "Oil and Gas Executive USA",
+    "American Energy Industry",
+    "Oil and Gas Leadership",
     "Energy Innovation",
+    "U.S. Petroleum Sector",
+    "Velanox Energy",
+    "Energy Executive Profile"
   ],
   openGraph: {
-    title: "Meet Engr. Ibrahim O. Musa - Visionary CEO of Velanox Energy",
+    title: "Engr. Ibrahim O. Musa - CEO of Velanox Energy",
     description:
-      "Learn about the leadership, values, and vision of Engr. Ibrahim O. Musa, who is revolutionizing the energy industry with Velanox Energy.",
+      "Explore the leadership, innovation, and vision of Engr. Ibrahim O. Musa, the CEO guiding Velanox Energy's impact across the United States energy sector.",
     type: "profile",
     profile: {
       firstName: "Ibrahim",
@@ -33,10 +33,10 @@ export const metadata = {
       gender: "male",
     },
     locale: "en_US",
-    url: "https://velanoxenergy.com/ceo", // Replace with actual URL of the CEO page
+    url: "https://velanoxenergy.com/ceo", // <-- make sure this matches your actual route
     images: [
       {
-        url: "https://media.istockphoto.com/id/166091073/photo/technician-in-uniform-and-hard-hat-working-on-a-machinery.jpg?s=612x612&w=0&k=20&c=AGDulP9luXhq3cXbjFz5QPfaqG73lNj9RWKKYVeYiJ8=", // Replace with real image
+        url: "https://media.istockphoto.com/id/166091073/photo/technician-in-uniform-and-hard-hat-working-on-a-machinery.jpg?s=612x612&w=0&k=20&c=AGDulP9luXhq3cXbjFz5QPfaqG73lNj9RWKKYVeYiJ8=",
         width: 1200,
         height: 630,
         alt: "Engr. Ibrahim O. Musa - CEO of Velanox Energy",
@@ -47,14 +47,17 @@ export const metadata = {
     card: "summary_large_image",
     title: "Engr. Ibrahim O. Musa - CEO of Velanox Energy",
     description:
-      "Get to know Engr. Ibrahim O. Musa, the man driving energy transformation across Africa and the U.S. as CEO of Velanox Energy.",
-    images: ["https://media.istockphoto.com/id/166091073/photo/technician-in-uniform-and-hard-hat-working-on-a-machinery.jpg?s=612x612&w=0&k=20&c=AGDulP9luXhq3cXbjFz5QPfaqG73lNj9RWKKYVeYiJ8="],
+      "Meet Engr. Ibrahim O. Musa, the visionary behind Velanox Energy, transforming the U.S. oil and gas industry through innovation and strategic leadership.",
+    images: [
+      "https://media.istockphoto.com/id/166091073/photo/technician-in-uniform-and-hard-hat-working-on-a-machinery.jpg?s=612x612&w=0&k=20&c=AGDulP9luXhq3cXbjFz5QPfaqG73lNj9RWKKYVeYiJ8="
+    ],
   },
   robots: {
     index: true,
     follow: true,
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
