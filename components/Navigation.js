@@ -56,8 +56,8 @@ export default function Navigation() {
             <Link href="/contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               Contact
             </Link>
-            <Link href="/admin" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
-              Admin
+            <Link href="/ceopage" className="text-gray-700 hover:text-blue-600 transition-colors">
+              Our CEO
             </Link>
           </div>
         </div>
