@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,12 +15,10 @@ export const metadata = {
     "Engr. Ibrahim O. Musa",
     "Velanox Energy CEO",
     "Oil and Gas Executive",
-    "African Energy Leader",
-    "Nigerian CEO",
     "Velanox Energy",
     "Petroleum Industry",
     "Oil and Gas Visionary",
-    "Energy Leadership Africa",
+    "Energy Leadership United States",
     "Energy Innovation",
   ],
   openGraph: {
