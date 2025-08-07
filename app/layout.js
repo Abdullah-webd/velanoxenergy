@@ -91,6 +91,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Navigation />
         <main className="flex-1">{children}</main>
+        <Analytics/>
       </body>
     </html>
   );
