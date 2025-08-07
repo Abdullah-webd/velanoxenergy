@@ -94,10 +94,6 @@ export default function BlogPost({ slug }) {
             
             <div className="flex items-center space-x-6 text-gray-500 mb-8">
               <div className="flex items-center space-x-2">
-                <User className="h-5 w-5" />
-                <span>Admin</span>
-              </div>
-              <div className="flex items-center space-x-2">
                 <Calendar className="h-5 w-5" />
                 <span>{new Date(post.createdAt).toLocaleDateString()}</span>
               </div>
