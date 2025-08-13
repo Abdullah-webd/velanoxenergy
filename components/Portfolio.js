@@ -7,7 +7,7 @@ const projects = [
     title: 'North Sea Offshore Platform',
     location: 'Norwegian Continental Shelf',
     year: '2023',
-    value: '$2.8B',
+    value: '$600,000',
     image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
     category: 'Offshore Drilling',
     description: 'Complete offshore platform installation and commissioning for deep-water oil extraction.',
@@ -18,7 +18,7 @@ const projects = [
     title: 'Trans-Continental Pipeline',
     location: 'Texas to Louisiana, USA',
     year: '2022-2024',
-    value: '$1.5B',
+    value: '$500,000',
     image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
     category: 'Pipeline Infrastructure',
     description: '500-mile natural gas pipeline with advanced monitoring and safety systems.',
@@ -29,7 +29,7 @@ const projects = [
     title: 'Renewable Energy Integration',
     location: 'California, USA',
     year: '2023',
-    value: '$800M',
+    value: '$800,000',
     image: 'https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
     category: 'Sustainable Energy',
     description: 'Solar and wind integration with existing oil and gas infrastructure.',
@@ -40,7 +40,7 @@ const projects = [
     title: 'Middle East Refinery Upgrade',
     location: 'Saudi Arabia',
     year: '2021-2023',
-    value: '$3.2B',
+    value: '$1,000,000',
     image: 'https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
     category: 'Refinery Operations',
     description: 'Complete modernization of refinery facilities with advanced processing technology.',
@@ -51,7 +51,7 @@ const projects = [
     title: 'Arctic Exploration Project',
     location: 'Alaska, USA',
     year: '2024',
-    value: '$1.2B',
+    value: '$350,000',
     image: 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
     category: 'Exploration',
     description: 'Environmentally responsible oil exploration in sensitive Arctic regions.',
@@ -62,7 +62,7 @@ const projects = [
     title: 'LNG Terminal Expansion',
     location: 'Queensland, Australia',
     year: '2022',
-    value: '$2.1B',
+    value: '$200,000',
     image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
     category: 'LNG Operations',
     description: 'Expansion of liquefied natural gas terminal with increased export capacity.',
@@ -72,10 +72,10 @@ const projects = [
 ]
 
 const projectStats = [
-  { label: 'Projects Completed', value: '500+', icon: Award },
-  { label: 'Countries Served', value: '50+', icon: MapPin },
-  { label: 'Total Project Value', value: '$25B+', icon: DollarSign },
-  { label: 'Team Members', value: '575+', icon: Users }
+  { label: 'Projects Completed', value: '25+', icon: Award },
+  { label: 'Countries Served', value: '15+', icon: MapPin },
+  { label: 'Total Project Value', value: '$5m', icon: DollarSign },
+  { label: 'Team Members', value: '30+', icon: Users }
 ]
 
 export default function Portfolio() {

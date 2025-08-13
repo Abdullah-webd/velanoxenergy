@@ -1,8 +1,8 @@
 export default function Stats() {
   const stats = [
-    { number: '25+', label: 'Years Experience' },
-    { number: '500+', label: 'Projects Completed' },
-    { number: '50+', label: 'Countries Served' },
+    { number: '10+', label: 'Years Experience' },
+    { number: '20+', label: 'Projects Completed' },
+    { number: '25+', label: 'Countries Served' },
     { number: '99.9%', label: 'Uptime Reliability' },
   ];
 

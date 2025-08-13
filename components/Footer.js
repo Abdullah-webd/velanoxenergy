@@ -13,7 +13,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-300 mb-4">
               Leading the way in oil and gas manufacturing with innovative solutions 
-              and cutting-edge technology for over 25 years.
+              and cutting-edge technology for over 10 years.
             </p>
             <div className="flex space-x-4">
               <div className="flex items-center space-x-2">
@@ -53,7 +53,7 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span className="text-sm text-gray-300">Velanoxenergysol@outlook.com</span>
+                <span className="text-sm text-gray-300">Velanoxenergyslc@outlook.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />

@@ -21,7 +21,7 @@ const initiatives = [
     icon: Wind,
     title: 'Renewable Energy',
     description: 'Investing in wind, solar, and hydrogen technologies to diversify our energy portfolio.',
-    metric: '$2.5B Invested',
+    metric: '$1.5m Invested',
     metricLabel: 'in renewable energy projects'
   },
   {

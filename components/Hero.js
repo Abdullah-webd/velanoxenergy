@@ -48,7 +48,7 @@ export default function Hero() {
             <div className="text-center">
               <Users className="h-12 w-12 text-orange-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-white mb-2">Expert Team</h3>
-              <p className="text-blue-100">25+ years of experience in oil and gas manufacturing</p>
+              <p className="text-blue-100">10+ years of experience in oil and gas manufacturing</p>
             </div>
           </div>
         </div>

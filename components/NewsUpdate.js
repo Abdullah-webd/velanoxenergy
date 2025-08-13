@@ -4,7 +4,7 @@ import { Calendar, ArrowRight, Tag, Clock } from 'lucide-react'
 
 const news = [
   {
-    title: 'PetroTech Announces $2.5B Investment in Renewable Energy',
+    title: 'Velanox Energy Announces $2,000,000 Investment in Renewable Energy',
     excerpt: 'Major expansion into solar and wind energy projects as part of our 2030 sustainability commitment.',
     date: '2024-01-15',
     category: 'Sustainability',
