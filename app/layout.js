@@ -7,9 +7,9 @@ import { Analytics } from "@vercel/analytics/next"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = { 
-  title: "Engr. Ibrahim O. Musa - CEO of Velanox Energy | U.S. Oil & Gas Visionary",
+  title: "Velanox Energy | Leading Innovation in U.S. Oil & Gas",
   description:
-    "Discover the professional journey of Engr. Ibrahim O. Musa, CEO of Velanox Energy. Learn how his leadership is driving innovation, sustainability, and excellence in the American oil and gas industry.",
+    "Explore how Velanox Energy is driving innovation, sustainability, and operational excellence in the American oil and gas industry.",
 };
 
 
