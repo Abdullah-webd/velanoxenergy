@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
+        <meta name="google-site-verification" content="u0RwejHQzwl3IxnIt5CM4mSJgGRlHZBOxCxXw9yfYQI" />
         <link rel="canonical" href="https://velanoxenergy.com" />
       </head>
       <body className={`${inter.className} flex flex-col min-h-screen`}>
